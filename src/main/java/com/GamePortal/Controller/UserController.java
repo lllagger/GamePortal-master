@@ -16,6 +16,7 @@ public class UserController {
     @PostMapping(value = "/add/user")
     public String addUserInformation(@RequestBody User user) {
         log.info("User added to data base.");
+        user.setUserPassword("");
         return userService.addUserInformation(user);
     }
 
