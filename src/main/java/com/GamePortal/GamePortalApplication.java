@@ -1,6 +1,7 @@
 package com.GamePortal;
 
 import com.GamePortal.Component.ImportExcelToDBArchiveProcess;
+import com.GamePortal.Entity.User;
 import com.GamePortal.Repository.IUserRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

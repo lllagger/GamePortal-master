@@ -39,11 +39,6 @@ public class Game {
         this.gameCost = gameCost;
     }
 
-    public void addUser(User user) {
-        gameUsers.add(user);
-    }
-
-
     public Long getGameId() {
         return gameId;
     }
