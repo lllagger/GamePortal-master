@@ -25,7 +25,6 @@ public class Game {
             joinColumns = {@JoinColumn(name = "game_id")},
             inverseJoinColumns = {@JoinColumn(name = "user_id")}
     )
-
     @JsonSerialize(using = UserSerializer.class)
     private List<User> gameUsers = new ArrayList<>();
 

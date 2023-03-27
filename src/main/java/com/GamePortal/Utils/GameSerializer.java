@@ -11,8 +11,7 @@ import java.util.List;
 
 public class GameSerializer extends JsonSerializer<List<Game>> {
     @Override
-    public void serialize(List<Game> games, JsonGenerator jgen,
-                          SerializerProvider provider) throws IOException {
+    public void serialize(List<Game> games, JsonGenerator jgen, SerializerProvider provider) throws IOException {
         jgen.writeStartArray();
         for (Game game : games) {
             jgen.writeStartObject();
